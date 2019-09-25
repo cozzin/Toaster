@@ -29,6 +29,7 @@
 		C06FC9D61F95A8CC00782082 /* Toaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A75E2B1BCF2066002E46C4 /* Toaster.framework */; };
 		C1C0178D23163F5000446CED /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C0178C23163F4F00446CED /* KeyboardObserver.swift */; };
 		C1C017922316419900446CED /* UIApplication+Load.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C017912316419900446CED /* UIApplication+Load.swift */; };
+		C1FC0876233B45BA00C06AFB /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FC0874233B427100C06AFB /* TextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +109,7 @@
 		C06FC9D51F95A8CC00782082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1C0178C23163F4F00446CED /* KeyboardObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardObserver.swift; sourceTree = "<group>"; };
 		C1C017912316419900446CED /* UIApplication+Load.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Load.swift"; sourceTree = "<group>"; };
+		C1FC0874233B427100C06AFB /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 			children = (
 				0306DB991D85D626007AE314 /* AppDelegate.swift */,
 				0306DB9E1D85D626007AE314 /* RootViewController.swift */,
+				C1FC0874233B427100C06AFB /* TextViewController.swift */,
 				0306DB9A1D85D626007AE314 /* Assets.xcassets */,
 				0306DB9B1D85D626007AE314 /* LaunchScreen.storyboard */,
 				0306DB9D1D85D626007AE314 /* Info.plist */,
@@ -418,6 +421,7 @@
 			files = (
 				0397CD2D1D85D6920077D82F /* AppDelegate.swift in Sources */,
 				0397CD2E1D85D6930077D82F /* RootViewController.swift in Sources */,
+				C1FC0876233B45BA00C06AFB /* TextViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

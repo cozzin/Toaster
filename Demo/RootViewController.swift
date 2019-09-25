@@ -36,6 +36,14 @@ final class RootViewController: UIViewController {
     shadowButton.autoresizingMask = [.flexibleBottomMargin, .flexibleLeftMargin, .flexibleRightMargin]
     shadowButton.center = CGPoint(x: view.center.x, y: 185)
     self.view.addSubview(shadowButton)
+    
+    let textViewButton = UIButton(type: .system)
+    textViewButton.setTitle("Open textViewController", for: .normal)
+    textViewButton.sizeToFit()
+    textViewButton.addTarget(self, action: #selector(self.textViewButtonTouchUpInside), for: .touchUpInside)
+    textViewButton.autoresizingMask = [.flexibleBottomMargin, .flexibleLeftMargin, .flexibleRightMargin]
+    textViewButton.center = CGPoint(x: view.center.x, y: 215)
+    self.view.addSubview(textViewButton)
 
     self.configureAppearance()
     self.configureAccessibility()
@@ -90,6 +98,11 @@ final class RootViewController: UIViewController {
       appearance.shadowOffset = .zero
       appearance.shadowRadius = 0
     }
+  }
+  
+  @objc func textViewButtonTouchUpInside() {
+    let controller = TextViewController()
+    present(controller, animated: true)
   }
 
   private func pickImage() {
